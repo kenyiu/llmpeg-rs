@@ -1,5 +1,9 @@
 # llmpeg-rs
 
+![demo.png](./assets/demo.png)
+![demo.gif](./assets/demo.gif)
+![demo.mp4](./assets/demo.mp4)
+
 llmpeg-rs is a natural language wrapper for ffmpeg, allowing users to describe multimedia tasks in natural language and get the corresponding ffmpeg command because we don't want to leave the terminal and just hope the command would work like a charm.
 
 ## Features
