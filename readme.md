@@ -42,13 +42,13 @@ Download the binary from release session. (https://github.com/kenyiu/llmpeg-rs/r
 2. Run the application with a natural language task description:
 
     ```sh
-    "convert screencapture.webm to screencapture.mp4, downscale to 720p"
+    llmpeg "convert screencapture.webm to screencapture.mp4, downscale to 720p"
     ```
 
 3. Enable debugging information:
 
     ```sh
-    cargo run -- --debug "convert screencapture.webm to screencapture.mp4, downscale to 720p"
+    llmpeg --debug "convert screencapture.webm to screencapture.mp4, downscale to 720p"
     ```
 
 ## Command-line Options
