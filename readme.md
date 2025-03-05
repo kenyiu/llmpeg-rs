@@ -1,6 +1,6 @@
-# llmpeg
+# llmpeg-rs
 
-llmpeg is a natural language wrapper for ffmpeg, allowing users to describe multimedia tasks in natural language and get the corresponding ffmpeg command because we don't want to leave the terminal and just hope the command would work like a charm.
+llmpeg-rs is a natural language wrapper for ffmpeg, allowing users to describe multimedia tasks in natural language and get the corresponding ffmpeg command because we don't want to leave the terminal and just hope the command would work like a charm.
 
 ## Features
 
@@ -42,13 +42,13 @@ Download the binary from release session. (https://github.com/kenyiu/llmpeg-rs/r
 2. Run the application with a natural language task description:
 
     ```sh
-    "convert screencapture.webm to screencapture.mp4, downscale to 720p"
+    llmpeg "convert screencapture.webm to screencapture.mp4, downscale to 720p"
     ```
 
 3. Enable debugging information:
 
     ```sh
-    cargo run -- --debug "convert screencapture.webm to screencapture.mp4, downscale to 720p"
+    llmpeg --debug "convert screencapture.webm to screencapture.mp4, downscale to 720p"
     ```
 
 ## Command-line Options
