@@ -1,6 +1,6 @@
-# llmpeg
+# llmpeg-rs
 
-llmpeg is a natural language wrapper for ffmpeg, allowing users to describe multimedia tasks in natural language and get the corresponding ffmpeg command because we don't want to leave the terminal and just hope the command would work like a charm.
+llmpeg-rs is a natural language wrapper for ffmpeg, allowing users to describe multimedia tasks in natural language and get the corresponding ffmpeg command because we don't want to leave the terminal and just hope the command would work like a charm.
 
 ## Features
 
